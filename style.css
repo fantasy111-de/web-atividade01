@@ -1,0 +1,181 @@
+/* Reset de estilos padrão */
+body, h1, h2, h3, p, ul, li, label, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo do documento */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #e575ad;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para imagens dentro da classe .image-list */
+.image-list img {
+    width: 150px; /* Defina o tamanho desejado para as imagens */
+    height: auto;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave de transformação */
+}
+
+/* Efeito de escala quando passa o mouse sobre a imagem */
+.image-list img:hover {
+    transform: scale(1.1); /* Aumenta a escala da imagem em 10% */
+}
+
+
+h2 {
+    font-family: 'Courgette', cursive;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Courgette', cursive;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #c20a91;
+}
+
+/* Estilo para os containers */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Estilo para seções */
+.contact {
+    margin-bottom: 40px;
+}
+
+.contact h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para formulário de contato */
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #c20a91;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d4378b;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .container {
+        padding: 15px;
+    }
+}
+/* Estilos para imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos específicos para imagens dentro das listas */
+ul img {
+    max-width: 80px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: none; /* Remova a sombra para imagens dentro de listas */
+}
+
+/* Estilos para as listas */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos para a imagem específica */
+.minha-imagem {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centralizar a imagem horizontalmente */
+    border-radius: 50%; /* Bordas arredondadas para criar uma imagem circular */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 150px; /* Tamanho da imagem (ajuste conforme necessário) */
+}
